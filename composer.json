@@ -1,0 +1,21 @@
+{
+    "name": "byron1655/super-factory",
+    "description": "super factory",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "byron",
+            "email": "byron1655@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^7.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperFactory\\": "src/"
+        }
+    }
+}
